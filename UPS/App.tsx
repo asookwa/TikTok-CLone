@@ -1,8 +1,7 @@
 import { TailwindProvider } from 'tailwind-rn/dist';
-import CustomersScreen from './screens/CustomersScreen';
 import  utilities  from './tailwind.json'
 import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import RootNavigator from './Navigator/RootNavigator';
 
 
 
@@ -17,7 +16,7 @@ export default function App() {
     //@ts-ignore -TailwindProvider is missing a type definition
     <TailwindProvider utilities={utilities}>
       <NavigationContainer>
-        <CustomersScreen />
+        <RootNavigator />
       </NavigationContainer>
       
     </TailwindProvider>
