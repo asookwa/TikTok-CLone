@@ -33,16 +33,17 @@ const TabNavigator = () => {
         if(route.name === "Customers") {
           return (
             <Icon 
-              name='users'
-              type="entypo"
+              name='group'
+              type="material-icons"
+              size={35}
               color={focused ?"#59C1CC": "gray"}
             />
           )
         } else if (route.name === "Orders"){
           return ( 
             <Icon 
-            name="box"
-            type="entypo"
+            name='box-open'
+            type='font-awesome-5'
             color={focused ?"#59C1CC": "gray"}
           />
 

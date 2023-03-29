@@ -1,48 +1,25 @@
-.static {
-  position: static
+.h-64 {
+  height: 16rem
 }
 
-.fixed {
-  position: fixed
+.w-full {
+  width: 100%
 }
 
-.absolute {
-  position: absolute
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity))
 }
 
-.relative {
-  position: relative
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem
 }
 
-.block {
-  display: block
+.pb-0 {
+  padding-bottom: 0px
 }
 
-.inline {
-  display: inline
-}
-
-.flex {
-  display: flex
-}
-
-.hidden {
-  display: none
-}
-
-.border {
-  border-width: 1px
-}
-
-.uppercase {
-  text-transform: uppercase
-}
-
-.capitalize {
-  text-transform: capitalize
-}
-
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity))
+.pt-5 {
+  padding-top: 1.25rem
 }

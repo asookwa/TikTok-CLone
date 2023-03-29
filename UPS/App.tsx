@@ -1,4 +1,4 @@
-import { TailwindProvider } from 'tailwind-rn/dist';
+import { TailwindProvider } from 'tailwind-rn/';
 import  utilities  from './tailwind.json'
 import { NavigationContainer } from '@react-navigation/native';
 import RootNavigator from './Navigator/RootNavigator';
