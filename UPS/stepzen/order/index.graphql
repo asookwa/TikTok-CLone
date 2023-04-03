@@ -1,11 +1,11 @@
 type Order {
-  carrier: String,
-  createdAt: String,
-  shippingCost: Int,
-  trackingId: String,
-  City: String,
-  Lat: Float,
-  Lng: Float,
+  carrier: String
+  createdAt: String
+  shippingCost: Int
+  trackingId: String
+  City: String
+  Lat: Float
+  Lng: Float
   trackingItems: TrackingItems
     @materializer(
       query:"getTrackingItemById"

@@ -6,14 +6,27 @@
   width: 100%
 }
 
+.rounded-lg {
+  border-radius: 0.5rem
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity))
 }
 
+.p-5 {
+  padding: 1.25rem
+}
+
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem
+}
+
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px
 }
 
 .pb-0 {
